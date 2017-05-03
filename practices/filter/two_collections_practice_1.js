@@ -7,7 +7,7 @@ function choose_common_elements(collection_a, collection_b) {
   for (var j = 0; j < collection_a.length; j++) {
     for (var i = 0; i < collection_b.length; i++) {
       if (collection_b[i] === collection_a[j]) {
-        result.push(collection_b[i])
+        result.push(collection_b[i]);
       }
     }
   }
