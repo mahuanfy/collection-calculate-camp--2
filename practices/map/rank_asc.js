@@ -5,6 +5,7 @@ var rank_asc = function (collection) {
   }
   var result = [];
   result = collection.sort(sortNumber);
+
   return result;
 };
 
