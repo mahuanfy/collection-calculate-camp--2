@@ -9,7 +9,6 @@ function find_last_even(collection) {
 
     }
   }
-
   return result;
 }
 
