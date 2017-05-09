@@ -1,12 +1,12 @@
 'use strict';
 var rank_asc = function (collection) {
-  function sortNumber(a, b) {
-    return b - a;
-  }
-  var result = [];
-  result = collection.sort(sortNumber);
 
-  return result;
+  return collection.sort(sortNumber);
 };
+
+function sortNumber(a, b) {
+
+  return b - a;
+}
 
 module.exports = rank_asc;

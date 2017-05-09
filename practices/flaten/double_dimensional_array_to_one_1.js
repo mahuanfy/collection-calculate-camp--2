@@ -2,17 +2,19 @@
 
 function double_to_one(collection) {
 
-  //在这里写入代码
-  var result = [];
+  var resultArray = [];
+
   for (var i = 0; i < collection.length; i++) {
     if (collection[i].length === undefined) {
-      result.push(collection[i]);
+      resultArray.push(collection[i]);
     }
+
     for (var j = 0; j < collection[i].length; j++) {
-      result.push(collection[i][j]);
+      resultArray.push(collection[i][j]);
     }
   }
-  return result;
+
+  return resultArray;
 }
 
 module.exports = double_to_one;

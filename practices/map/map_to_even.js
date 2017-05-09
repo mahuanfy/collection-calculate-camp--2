@@ -1,10 +1,12 @@
 'use strict';
 function map_to_even(collection) {
 
-  var result = [];
+  var resultArray = [];
+
   for (var index in collection) {
-    result.push( collection[index]*2);
+    resultArray.push( collection[index]*2);
   }
-  return result;
+
+  return resultArray;
 }
 module.exports = map_to_even;
