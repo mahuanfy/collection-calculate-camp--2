@@ -8,5 +8,4 @@ describe('calculate_average_spec', function() {
     var result = calculate_average(collection_a);
     expect(result).toEqual(4);
   });
-
 });
